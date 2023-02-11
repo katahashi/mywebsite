@@ -176,7 +176,7 @@ button:hover {
     font-size: 32px;
   }
       
-      <button onclick="toggleOrientation()">Chuyển đổi chế độ xem</button>
+
       
 </style>
   </head>
@@ -191,7 +191,18 @@ button:hover {
           <button class="buy-button">Mua</button>
           <div class="separator"></div>
           <button class="add-to-cart-button">Thêm vào giỏ</button>
+          
+           <button onclick="toggleOrientation()">Chuyển đổi chế độ xem</button>
+          
         </div>
+        
+        <script>
+  function toggleOrientation() {
+    const productList = document.querySelector('.product-list');
+    productList.classList.toggle('vertical');
+  }
+</script>
+        
       </div>
       <div class="product">
         <img src="product2.jpg" alt="product 2">
