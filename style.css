@@ -1,0 +1,41 @@
+#top{
+  width:800;
+  height:20;
+  background-color: red;
+  margin: auto;
+}
+#menu{
+  width: 800;
+  height: 20;
+  background-color: blue;
+  margin: auto;
+}
+#wraper{
+  width:800;
+  height:500;
+  margin: auto;
+}
+#left{
+  width: 140;
+  height:500;
+  background-color: magenta;
+  float: left;
+}
+#main{
+  width:500;
+  height:500;
+  background-color: yellow;
+  float:left;
+}
+#right{
+  width:160;
+  height:500;
+  background-color: green;
+  float: left;
+}
+#bottom{
+  width:800;
+  height: 15;
+  background-color: grey;
+  margin: auto;
+}
